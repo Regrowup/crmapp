@@ -43,7 +43,7 @@ if(isset($_COOKIE['rememberme'])){
         
        
     
-        header("location: /admin/$extra");    
+        header("location: /home/$extra");    
              
             
          exit; 
@@ -136,7 +136,7 @@ if(isset($_POST['login'])){
     
         
         
-        header("location: /admin/$extra");    
+        header("location: /home/$extra");    
             
          exit;    
             
